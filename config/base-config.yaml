@@ -1,0 +1,57 @@
+device: cuda
+
+negative_inpainting_prompt: "collage, text, writings, signs, text, white border, photograph border, artifacts, blur, blurry, foggy, fog, person, bad quality, distortions, distorted image, watermark, signature, fisheye look"
+num_frames: 1
+frames: 5
+seed: 2
+
+# choice: [MiDaS, ZoeDepth, MariGold]
+depth_model: marigold
+camera_speed: 0.001
+rotation_range: 0.37
+
+#camera parameters
+init_focal_length: 500
+
+#decoder finetuning parameters
+finetune_depth_decoder: False
+decoder_learning_rate: 0.0001
+num_finetune_decoder_steps: 100
+num_finetune_decoder_steps_interp: 30
+preservation_weight: 10
+
+#inpainting parameters
+stable_diffusion_checkpoint: "stabilityai/stable-diffusion-2-inpainting" #"dreambooth_models/mountains-sks-1500"
+inpainting_resolution_interp: 512
+inpainting_resolution_gen: 512
+
+#depth finetuning parameters
+depth_conditioning: True
+depth_model_learning_rate: 1e-6
+
+save_fps: 30
+skip_interp: False
+skip_gen: False
+kf2_upsample_coef: 4
+fg_depth_range: 0.015
+depth_shift: 0.001
+
+sky_hard_depth: 0.02
+sky_erode_kernel_size: 0
+ground_erode_kernel_size: 3
+dilate_mask_decoder_ft: 3
+
+regenerate_times: 3
+debug: False
+
+gen_sky: False
+gen_layer: False
+
+camera_speed_multiplier_rotation: 0.3
+api_key: "Your OpenAI api_key"
+gen_sky_image: False
+
+use_compile: False
+rotation_path: [2, 2, 2, 2, 2, 2, 2, 2, -2, -2, -2, -2, -2, -2, -2, -2]
+num_scenes: 16
+use_free_lunch: False

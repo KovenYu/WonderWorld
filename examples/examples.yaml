@@ -1,0 +1,152 @@
+- name: animation_lakeside_1
+  image_filepath: examples/images/animation_lakeside_1.png
+  style_prompt: animation
+  content_prompt: A tranquil lakeside scene, wooden house, water with waves, beach chairs 
+  negative_prompt: ""
+  background: Dense green forests and rolling hills stretch into the distance under a blue sky filled with puffy white clouds
+- name: animation_lakeside_2
+  image_filepath: examples/images/animation_lakeside_2.png
+  style_prompt: animation
+  content_prompt: A serene, idyllic seaside scene with a rustic house perched on the edge of a clear blue lake. trees and rocks near the lake, house, port in front of a house
+  negative_prompt: ""
+  background: ""
+- name: arc_de_triomf
+  image_filepath: examples/images/arc_de_triomf.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: Arc de Triomf, gate, palm trees, people
+  negative_prompt: ""
+  background: ""
+- name: campus_monet
+  image_filepath: examples/images/campus_monet.png
+  style_prompt: Monet painting
+  content_prompt: Historic university building, prominent bell tower, lush green lawn, blue sky
+  negative_prompt: ""
+  background: ""
+- name: cathedral_1
+  image_filepath: examples/images/cathedral_1.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: Segovia Cathedral, cathedral, lush greenery, gazebo
+  negative_prompt: ""
+  background: ""
+- name: cathedral_2
+  image_filepath: examples/images/cathedral_2.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: Cathedral of the Holy Spirit, cathedral with its twin spires, stairway, person sitting on a bench
+  negative_prompt: ""
+  background: ""
+- name: city_hall
+  image_filepath: examples/images/city_hall.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: Ho Chi Minh City Hall in Vietnam, building, garden, red flag
+  negative_prompt: ""
+  background: ""
+- name: city_hall_monet
+  image_filepath: examples/images/city_hall_monet.png
+  style_prompt: Monet painting
+  content_prompt: California State Capitol, building, garden, fountain
+  negative_prompt: ""
+  background: ""
+- name: city_monet_1
+  image_filepath: examples/images/city_monet_1.png
+  style_prompt: Monet painting
+  content_prompt: A vibrant city avenue, bustling traffic, pedestrians, towering skyscrapers
+  negative_prompt: ""
+  background: "" 
+- name: city_monet_2
+  image_filepath: examples/images/city_monet_2.png
+  style_prompt: Monet painting
+  content_prompt: A vibrant city avenue, bustling traffic, pedestrians, towering skyscrapers
+  negative_prompt: ""
+  background: "" 
+- name: forbidden
+  image_filepath: examples/images/forbidden.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: The Forbidden City, palace, walls, lion
+  negative_prompt: distortion
+  background: A large dragon statue sits in front of a red building, possibly a temple
+- name: garden_monet
+  image_filepath: examples/images/garden_monet.png
+  style_prompt: Monet painting
+  content_prompt: The Garden at Sainte-Adresse, flags, people, flowers
+  negative_prompt: ''
+  background: ""
+- name: lego
+  image_filepath: examples/images/lego.png
+  style_prompt: lego
+  content_prompt: A vibrant and detailed Lego scene featuring a modern, luxurious house with a swimming pool, house, people, lush vegetation
+  negative_prompt: "person, people"
+  background: ""
+- name: main_square
+  image_filepath: examples/images/main_square.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: The main square, central fountain, clock tower, neatly trimmed trees
+  negative_prompt: ""
+  background: ""
+- name: marienplatz
+  image_filepath: examples/images/marienplatz.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: Marienplatz in Munich, bank building, old town hall, clock tower
+  negative_prompt: ""
+  background: ""
+- name: minecraft
+  image_filepath: examples/images/minecraft.png
+  style_prompt: 3D pixel
+  content_prompt: Charming 3D pixel natural scene, cottages, trees, blue sky
+  negative_prompt: ""
+  background: ""
+- name: real_campus_1
+  image_filepath: examples/images/real_campus_1.png
+  style_prompt: campus setting DSLR 35mm landscape
+  content_prompt: Elegant building, dynamic fountain set, Mediterranean building, campus setting
+  negative_prompt: ""
+  background: ""
+- name: real_campus_2
+  image_filepath: examples/images/real_campus_2.png
+  style_prompt: campus setting DSLR 35mm landscape
+  content_prompt: Historic university building, prominent bell tower, lush green lawn, blue sky
+  negative_prompt: "text"
+  background: ""
+- name: real_westlake
+  image_filepath: examples/images/real_westlake.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: Peaceful lakeside view, blossoming purple wisteria, calm waters, lush greenery
+  negative_prompt: ""
+  background: ""
+- name: taj_mahal_monet
+  image_filepath: examples/images/taj_mahal_monet.png
+  style_prompt: Monet painting
+  content_prompt: Taj Mahal, Indian building, reflecting pool, surrounding cypress trees
+  negative_prompt: ''
+  background: ""
+- name: ukiyo-e
+  image_filepath: examples/images/ukiyo-e.png
+  style_prompt: Ukiyo-e painting
+  content_prompt: Japanese village, people, ancient marketplace, Mount Fuji
+  negative_prompt: ""
+  background: Bustling village scene in a traditional Ukiyo-e style depicting daily life with a backdrop of mountains and sea
+- name: venice
+  image_filepath: examples/images/venice.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: The Grand Canal in Venice, boats, historical buildings, waterway 
+  negative_prompt: ""
+  background: ""
+- name: village
+  image_filepath: examples/images/village.png
+  style_prompt: DSLR 35mm landscape
+  content_prompt: Alpine village, street, chalet, church
+  negative_prompt: ''
+  background: A small village with a church and a clock tower is surrounded by a mountain
+- name: village_monet
+  image_filepath: examples/images/village_monet.png
+  style_prompt: Monet painting
+  content_prompt: Countryside in spring, cottages, clear blue stream, market place
+  negative_prompt: ''
+  background: ""
+- name: zelda
+  image_filepath: examples/images/zelda.png
+  style_prompt: animation
+  content_prompt: Link taking adventure in a world brimming with magic and wonder, majestic mountains, river, boy 
+  negative_prompt: ""
+  background: ""
+
+

@@ -1,0 +1,28 @@
+runs_dir: output/venice
+example_name: venice
+
+seed: 1
+# enable guided depth diffusion
+depth_conditioning: True
+
+# use gpt to generate scene description
+use_gpt: False
+debug: True
+
+# depth model and camera/depth parameters
+depth_model: marigold
+camera_speed: 0.001
+fg_depth_range: 0.015
+depth_shift: 0.001
+sky_hard_depth: 0.02
+init_focal_length: 960
+
+# re-generate sky panorama images
+gen_sky_image: False
+# generate sky point cloud
+gen_sky: False
+
+# enable layer-wise generation
+gen_layer: True
+# load previously generated gaussians
+load_gen: False

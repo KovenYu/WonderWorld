@@ -1,0 +1,1 @@
+python main.py --eval --model repvit_m1_1 --resume pretrain/repvit_m1_1_distill_300e.pth --data-path ~/imagenet
